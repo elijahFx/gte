@@ -1,0 +1,15 @@
+[package]
+name = "rust-text-editor"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rust-text-editor"
+path = "src/main.rs"
+
+[dependencies]
+eframe = "0.27"
+egui = "0.27"
+rodio = "0.17"
+rfd = "0.14"
+docx-rs = "0.4"
